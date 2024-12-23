@@ -1,0 +1,23 @@
+.grid_cpnteiner{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 15px;
+}
+
+.grid_item{
+    border-radius: 10px;
+    border: solid 1px black;
+    color: beige;
+    background-color: rgb(32, 32, 32);
+    text-align: center;
+}
+
+.test_button{
+    margin-top: 10px;
+    background-color: blue;
+    padding: 15px;
+    &:hover {
+        padding: 20px;
+        cursor: pointer;
+    }
+}
